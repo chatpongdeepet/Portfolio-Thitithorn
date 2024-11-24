@@ -14,7 +14,7 @@ export default function handler(req, res) {
     } else {
       res
         .status(200)
-        .json({ name: "This route works in development mode only.." });
+        .json({ name: "This route works in development mode only" });
     }
   }
 }

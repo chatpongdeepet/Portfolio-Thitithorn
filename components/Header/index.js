@@ -1,4 +1,5 @@
 import { Popover } from "@headlessui/react";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
